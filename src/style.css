@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* header {
+    background-color: rgb(0, 3, 35);
+} */
+
+@layer utilities {
+    .bg-hero {
+        background-image: url('./assets/hero.png');
+        background-position: center;
+    }
+
+    .webinar-txt {
+        padding-block: calc(var(--spacing) * 5);
+    }
+
+    .profile-nav-icon {
+        color: rgb(30, 25, 25, 0.7);
+    }
+}
