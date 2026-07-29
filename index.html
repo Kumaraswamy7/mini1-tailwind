@@ -17,6 +17,13 @@
       <img src="./src/assets/vite.svg" alt="Brand" class="w-15">
       <div class="ml-2 text-2xl text-white">Playground</div>
     </div>
+    <div class="hidden md:grid md:grid-flow-col text-white items-center gap-4">
+      <a href="" class="hover:text-sky-300 active:text-amber-500">Home</a>
+      <a href="" class="hover:text-sky-300 active:text-amber-500">Agenda</a>
+      <a href="" class="hover:text-sky-300 active:text-amber-500">Host</a>
+      <a href="" class="hover:text-sky-300 active:text-amber-500">Review</a>
+      <a href="" class="hover:text-sky-300 active:text-amber-500">Benefits</a>
+    </div>
     <button class="bg-blue-700 px-5 rounded-md text-white">Register</button>
   </header>
 
@@ -96,9 +103,18 @@
   </section>
 
   <section class="grid bg-indigo-500 py-5 text-white text-center md:grid-flow-col font-semibold md:px-10">
-    <p class="webinar-txt">August 12th 2026</p>
-    <p class="webinar-txt">6:00 AM GMT</p>
-    <p class="webinar-txt">Duration: 8 Hours</p>
+    <div>
+      <i class="fa-regular fa-calendar-days hidden! md:inline-block!"></i>
+      <p class="webinar-txt">August 12th 2026</p>
+    </div>
+    <div>
+      <i class="fa-regular fa-clock hidden! md:inline-block!"></i>
+      <p class="webinar-txt">6:00 AM GMT</p>
+    </div>
+    <div>
+      <i class="fa-solid fa-hourglass-end hidden! md:inline-block!"></i>
+      <p class="webinar-txt">Duration: 8 Hours</p>
+    </div>
     <button class="webinar-txt  text-black ">
       <span class="bg-white px-4 py-2 rounded-md">Book Seat Now</span>
     </button>
@@ -132,6 +148,26 @@
           <i class="fa-brands fa-square-github profile-nav-icon"></i>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section
+    class="bg-[rgb(239,239,255)]  border-t border-b border-[rgba(30,40,30,0.3)] my-5 px-4 py-8 md:grid md:grid-flow-col lg:justify-center ">
+    <div class="bg-gray-300 text-center rounded-md my-2 py-5 md:mx-2 lg:px-20">
+      <h2 class="text-indigo-600 font-bold text-3xl text-center">50+</h2>
+      <p class="text-md font-medium text-center">Webinar</p>
+    </div>
+    <div class="bg-gray-300 text-center rounded-md my-2 py-5 md:mx-2 lg:px-20">
+      <h2 class="text-indigo-600 font-bold text-3xl text-center">5000+</h2>
+      <p class="text-md font-medium text-center">Attended</p>
+    </div>
+    <div class="bg-gray-300 text-center rounded-md my-2 py-5 md:mx-2 lg:px-20">
+      <h2 class="text-indigo-600 font-bold text-3xl text-center">400+</h2>
+      <p class="text-md font-medium text-center">Hours</p>
+    </div>
+    <div class="bg-gray-300 text-center rounded-md my-2 py-5 md:mx-2 lg:px-20">
+      <h2 class="text-indigo-600 font-bold text-3xl text-center">6000+</h2>
+      <p class="text-md font-medium text-center">Subscribers</p>
     </div>
   </section>
 
