@@ -102,7 +102,8 @@
     </div>
   </section>
 
-  <section class="grid bg-indigo-500 py-5 text-white text-center md:grid-flow-col font-semibold md:px-10">
+  <section
+    class="grid bg-indigo-500 py-5 text-white text-center md:grid-flow-col md:grid-cols-[repeat(4,minmax(auto,300px))] md:justify-center font-semibold md:px-10">
     <div>
       <i class="fa-regular fa-calendar-days hidden! md:inline-block!"></i>
       <p class="webinar-txt">August 12th 2026</p>
@@ -152,24 +153,204 @@
   </section>
 
   <section
-    class="bg-[rgb(239,239,255)]  border-t border-b border-[rgba(30,40,30,0.3)] my-5 px-4 py-8 md:grid md:grid-flow-col lg:justify-center ">
-    <div class="bg-gray-300 text-center rounded-md my-2 py-5 md:mx-2 lg:px-20">
+    class="bg-[rgb(239,239,255)]  border-t border-b border-[rgba(30,40,30,0.3)] my-5 px-4 py-8 grid grid-cols-2 md:grid md:grid-flow-col md:grid-cols-[repeat(4,minmax(auto,300px))] md:justify-center md:grid-rows-1 ">
+    <div class="bg-gray-300 text-center rounded-md m-2  py-5 md:mx-2 lg:px-20">
       <h2 class="text-indigo-600 font-bold text-3xl text-center">50+</h2>
       <p class="text-md font-medium text-center">Webinar</p>
     </div>
-    <div class="bg-gray-300 text-center rounded-md my-2 py-5 md:mx-2 lg:px-20">
+    <div class="bg-gray-300 text-center rounded-md m-2 py-5 md:mx-2 lg:px-20">
       <h2 class="text-indigo-600 font-bold text-3xl text-center">5000+</h2>
       <p class="text-md font-medium text-center">Attended</p>
     </div>
-    <div class="bg-gray-300 text-center rounded-md my-2 py-5 md:mx-2 lg:px-20">
+    <div class="bg-gray-300 text-center rounded-md m-2 py-5 md:mx-2 lg:px-20">
       <h2 class="text-indigo-600 font-bold text-3xl text-center">400+</h2>
       <p class="text-md font-medium text-center">Hours</p>
     </div>
-    <div class="bg-gray-300 text-center rounded-md my-2 py-5 md:mx-2 lg:px-20">
+    <div class="bg-gray-300 text-center rounded-md m-2 py-5 md:mx-2 lg:px-20">
       <h2 class="text-indigo-600 font-bold text-3xl text-center">6000+</h2>
       <p class="text-md font-medium text-center">Subscribers</p>
     </div>
   </section>
+
+
+  <section class="px-4 my-10 mb-20 grid justify-center">
+    <h3 class="text-2xl font-bold my-15 text-center">What others say about us</h3>
+    <div
+      class="grid justify-center md:grid-flow-col md:overflow-x-auto  md:w-auto md:grid-cols-[repeat(4,minmax(350px,400px))] md:max-w-300 md:justify-start scrollbar-none">
+      <div class="max-w-125 border-b border-[rgba(30,40,30,0.3)] md:border-b-0 md:border-r md:pr-5 md:mr-5 my-5">
+        <p class="text-center text-md font-normal text-[rgb(81,81,81)]">
+          “The webinar on web development conducted by John was exceptional. He explained complex concepts in a simple
+          and engaging manner. I learned a lot and feel more confident in my web development skills now.”
+        </p>
+        <div class="grid grid-flow-col my-5 items-center justify-start">
+          <img class="w-15 h-15 rounded-[50%] object-cover mr-3 md:mr-5"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy4zO0deqi7qCTBBARyNCfxo4yttR5ezLuUOR9_55sCQ&s=10"
+            alt="">
+          <div>
+            <p class="text-lg text-indigo-600 font-semibold">Sarah Thompson</p>
+            <p class="text-xs font-normal text-[rgba(30,25,25,0.7)]">Lead Developer / TechPro Solutions</p>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-125 border-b border-[rgba(30,40,30,0.3)] my-5 md:border-b-0 md:border-r md:mr-5 md:pr-5">
+        <p class="text-center text-md font-normal text-[rgb(81,81,81)]">
+          “webinar on web development conducted by John was exceptional. He explained complex concepts in a simple
+          and engaging manner. I learned a lot and feel more confident in my web development skills now.”
+        </p>
+        <div class="grid grid-flow-col my-5 items-center justify-start">
+          <img class="w-15 h-15 rounded-[50%] object-cover mr-3 md:mr-5"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhqYeAZ1mk_tvd8v2N7rbN23QK576KhK5jkapgJ-NxTA&s=10"
+            alt="">
+          <div>
+            <p class="text-lg text-indigo-600 font-semibold">Kate Berg</p>
+            <p class="text-xs font-normal text-[rgba(30,25,25,0.7)]">Chief Technology Officer / InnovateX</p>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-125 border-b border-[rgba(30,40,30,0.3)] my-5 md:border-b-0 md:border-r md:mr-5 md:pr-5">
+        <p class="text-center text-md font-normal text-[rgb(81,81,81)]">
+          “I thoroughly enjoyed the webinar hosted by Michael. His expertise in web development is evident, and he
+          shared valuable insights and tips. It was a great learning experience, and I would highly recommend it to
+          others.”
+        </p>
+        <div class="grid grid-flow-col my-5 items-center justify-start">
+          <img class="w-15 h-15 rounded-[50%] object-cover mr-3 md:mr-5"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9XIg1S6fleoUpItfeyXw5UXzK7lK2dIA3Iv4ZqIznOQ&s=10"
+            alt="">
+          <div>
+            <p class="text-lg text-indigo-600 font-semibold">Greg Jackson</p>
+            <p class="text-xs font-normal text-[rgba(30,25,25,0.7)]">Frontend Developer / CodeCrafters</p>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-125 border-b border-[rgba(30,40,30,0.3)] my-5 md:border-b-0 md:border-r md:mr-5 md:pr-5">
+        <p class="text-center text-md font-normal text-[rgb(81,81,81)]">
+          "Attending Emily's webinar on web development was a game-changer for me. His knowledge and passion for the
+          subject were inspiring. The practical examples and hands-on helped me improve my coding skills.”
+        </p>
+        <div class="grid grid-flow-col my-5 items-center justify-start">
+          <img class="w-15 h-15 rounded-[50%] object-cover mr-3 md:mr-5"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0PmcW6QpVxtWXOhqIIs8Cdwmjvyf79fPD9Y33Vxxe1A&s=10"
+            alt="">
+          <div>
+            <p class="text-lg text-indigo-600 font-semibold">Mad Max Man</p>
+            <p class="text-xs font-normal text-[rgba(30,25,25,0.7)]">Expert in Backend / Cross2Live</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="px-4 flex flex-col items-center mb-20">
+    <div class="text-center">
+      <h3 class="mt-3 mb-4 font-bold text-black text-2xl">More reasons to signup</h3>
+      <p class="text-lg text-[rgba(30,20,40,0.7)]">Benefits of joining this webinar</p>
+    </div>
+    <div
+      class=" mt-10 grid grid-flow-cols justify-center md:grid-cols-[repeat(auto-fit,minmax(auto,350px))] gap-4 md:max-w-350">
+      <div class="grid grid-flow-col max-w-100 gap-3 my-6">
+        <span id="icon" class="bg-indigo-600 w-15 h-15 flex justify-center items-center rounded-xl ">
+          <i class="fa-solid fa-arrow-trend-up text-white"></i>
+        </span>
+        <div class="inline-block">
+          <span class="text-xl font-semibold mb-2">Growth</span>
+          <p class="text-lg font-normal text-[rgba(30,40,50,0.7)]">
+            Expand your knowledge and stay ahead in the tech world.
+          </p>
+          <button class="text-indigo-700 font-bold">More</button>
+        </div>
+      </div>
+      <div class="grid grid-flow-col max-w-100 gap-3 my-6">
+        <span id="icon" class="bg-indigo-600 w-15 h-15 flex justify-center items-center rounded-xl ">
+          <i class="fa-solid fa-lock text-white"></i>
+        </span>
+        <div class="inline-block">
+          <span class="text-xl font-semibold mb-2">Expertise</span>
+          <p class="text-lg font-normal text-[rgba(30,40,50,0.7)]">
+            Learn from industry experts and gain valuable insights..
+          </p>
+          <button class="text-indigo-700 font-bold">More</button>
+        </div>
+      </div>
+      <div class="grid grid-flow-col max-w-100 gap-3 my-6">
+        <span id="icon" class="bg-indigo-600 w-15 h-15 flex justify-center items-center rounded-xl ">
+          <i class="fa-regular fa-cloud text-white"></i>
+        </span>
+        <div class="inline-block">
+          <span class="text-xl font-semibold mb-2">Resources</span>
+          <p class="text-lg font-normal text-[rgba(30,40,50,0.7)]">
+            Access exclusive tools and resources to enhance your projects.
+          </p>
+          <button class="text-indigo-700 font-bold">More</button>
+        </div>
+      </div>
+      <div class="grid grid-flow-col max-w-100 gap-3 my-6">
+        <span id="icon" class="bg-indigo-600 w-15 h-15 flex justify-center items-center rounded-xl ">
+          <i class="fa-solid fa-bolt text-white"></i>
+        </span>
+        <div class="inline-block">
+          <span class="text-xl font-semibold mb-2">Empowerment</span>
+          <p class="text-lg font-normal text-[rgba(30,40,50,0.7)]">
+            Elevate your web development skills to new heights.
+          </p>
+          <button class="text-indigo-700 font-bold">More</button>
+        </div>
+      </div>
+      <div class="grid grid-flow-col max-w-100 gap-3 my-6">
+        <span id="icon" class="bg-indigo-600 w-15 h-15 flex justify-center items-center rounded-xl ">
+          <i class="fa-solid fa-globe text-white"></i>
+        </span>
+        <div class="inline-block">
+          <span class="text-xl font-semibold mb-2">Networking</span>
+          <p class="text-lg font-normal text-[rgba(30,40,50,0.7)]">
+            Connect with like-minded developers and build valuable connections..
+          </p>
+          <button class="text-indigo-700 font-bold">More</button>
+        </div>
+      </div>
+      <div class="grid grid-flow-col max-w-100 gap-3 my-6">
+        <span id="icon" class="bg-indigo-600 w-15 h-15 flex justify-center items-center rounded-xl ">
+          <i class="fa-solid fa-dice-d20 text-white"></i>
+        </span>
+        <div class="inline-block">
+          <span class="text-xl font-semibold mb-2">Opportunities</span>
+          <p class="text-lg font-normal text-[rgba(30,40,50,0.7)]">
+            Unlock new career opportunities with advanced web development skills.
+          </p>
+          <button class="text-indigo-700 font-bold">More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="grid justify-center mb-20">
+    <h2 class="text-3xl font-bold text-center">Join the Webinar</h2>
+    <form action="#" class=" grid mt-10 border border-[rgba(156,155,155,0.66)] rounded-sm px-4">
+      <label for="uname" class="block my-2 mt-5">Your name</label>
+      <input type="text" id="uname" placeholder="ex:john_doe"
+        class="border border-[rgba(144,144,144,0.29)] rounded-sm p-2" />
+      <label for="email" class="block my-2 mt-5">Email Address</label>
+      <input type="text" id="email" placeholder="ex:admin@123"
+        class="border border-[rgba(144,144,144,0.29)] rounded-sm p-2">
+      <label for="options" class="block py-2 mt-5">How did you find us?</label>
+      <select name="options" id="options" class="border border-[rgba(144,144,144,0.29)] rounded-sm p-2">
+        <option value="Select an Option">Select an Option</option>
+        <option value="Search Engine">Search Engine</option>
+        <option value="Social Media">Social Media</option>
+        <option value="Word of Mouth">Word of Mouth</option>
+        <option value="Other">Other</option>
+      </select>
+      <div class="my-3 mt-5">
+        <input type="checkbox" class="mr-2"><span>By clicking sign up you agree to our <span
+            class="text-indigo-600">Terms</span> and
+          read our
+          <span class="text-indigo-600">Privacy Policy</span>.</span>
+      </div>
+      <button class="bg-sky-600 text-white rounded-md py-3 my-8">Sign Up</button>
+    </form>
+  </section>
+
+
 
   <script type="module" src="/src/main.ts"></script>
 </body>
